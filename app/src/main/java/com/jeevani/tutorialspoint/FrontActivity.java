@@ -25,7 +25,7 @@ public class FrontActivity extends AppCompatActivity {
         setContentView(R.layout.front_activity);
 
         alName = new ArrayList<>(Arrays.asList("C", "Java", "Android", "SQL", "C", "Java", "Android", "SQL"));
-        alImage = new ArrayList<>(Arrays.asList(R.drawable.cimg, R.drawable.javaimg, R.drawable.android_img, R.drawable.sql_img, R.drawable.c_img, R.drawable.java_img, R.drawable.android_img, R.drawable.sql_img));
+        alImage = new ArrayList<>(Arrays.asList(R.drawable.c_img, R.drawable.java_img, R.drawable.android_img, R.drawable.sql_img, R.drawable.c_img, R.drawable.java_img, R.drawable.android_img, R.drawable.sql_img));
 
         // Calling the RecyclerView
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);

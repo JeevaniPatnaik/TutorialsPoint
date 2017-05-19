@@ -142,6 +142,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".SplashScreenActivity" />
         </activity>
+        <activity
+            android:name=".ConceptTopicLists"
+            android:label="Concept Topics"
+            android:noHistory="false"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:parentActivityName=".FrontActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.jeevani.tutorialspoint.ConceptTopicLists" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FrontActivity" />
+        </activity>
     </application>
 
 </manifest>

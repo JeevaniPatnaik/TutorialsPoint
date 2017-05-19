@@ -45,11 +45,23 @@ public class FrontActivityAdapter extends RecyclerView.Adapter<FrontActivityAdap
         viewHolder.setClickListener(new ItemClickListener() {
             @Override
             public void onClick(View view, int position, boolean isLongClick) {
-                if (isLongClick) {
+                /*if (isLongClick) {
                     Toast.makeText(context, "#" + position + " - " + alName.get(position) + " (Long click)", Toast.LENGTH_SHORT).show();
                     context.startActivity(new Intent(context, FrontActivity.class));
                 } else {
                     Toast.makeText(context, "#" + position + " - " + alName.get(position), Toast.LENGTH_SHORT).show();
+                }*/
+                if(position==0){
+                    Toast.makeText(context, "#" + position + " - " + alName.get(position) + " (Long click)", Toast.LENGTH_SHORT).show();
+                    context.startActivity(new Intent(context, ConceptTopicLists.class));
+                }
+                if(position==1){
+                    Toast.makeText(context, "#" + position + " - " + alName.get(position) + " (Long click)", Toast.LENGTH_SHORT).show();
+                    context.startActivity(new Intent(context, ConceptTopicLists.class));
+                }
+                if(position==2){
+                    Toast.makeText(context, "#" + position + " - " + alName.get(position) + " (Long click)", Toast.LENGTH_SHORT).show();
+                    context.startActivity(new Intent(context, FrontActivity.class));
                 }
             }
         });
