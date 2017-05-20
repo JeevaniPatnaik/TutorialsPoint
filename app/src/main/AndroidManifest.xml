@@ -158,6 +158,23 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".FrontActivity" />
         </activity>
+        <activity
+            android:name=".Introduction"
+            android:label="Introduction"
+            android:noHistory="false"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:parentActivityName=".ConceptTopicLists"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.jeevani.tutorialspoint.Introduction" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ConceptTopicLists" />
+        </activity>
+
     </application>
 
 </manifest>

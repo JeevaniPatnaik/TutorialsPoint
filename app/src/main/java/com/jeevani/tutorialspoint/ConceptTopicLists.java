@@ -23,7 +23,7 @@ public class ConceptTopicLists extends AppCompatActivity {
     private ListView list;
     private ArrayAdapter arrayAdapter;
     private String[] topics = { "Introduction  of OOPs", "Class", "Object", "Abstraction", "Encapsulation",
-            "Inheritance", "Polymorphism", "Interface" };
+            "Inheritance", "Polymorphism", "Interface", "Abstract Classes", "Packages", "Exception Handling", "Collections" };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -45,7 +45,11 @@
                 android:id="@+id/conceptLists"
                 android:layout_marginTop="70dp"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:divider="@drawable/list_item_divider"
+                android:background="@drawable/list_border"
+                android:footerDividersEnabled="true"
+                android:headerDividersEnabled="true" />
 
         </RelativeLayout>
     </ScrollView>
